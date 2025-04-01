@@ -1,7 +1,6 @@
 flet
 fastapi
 uvicorn
-os
 csv
 datetime
 asyncio
