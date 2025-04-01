@@ -592,7 +592,7 @@ def main(page: ft.Page):
                                      )
                     ]
                 ),
-                ft.Text(value="Olá Janaína!", font_family="Arial",
+                ft.Text(value="Olá Brandon!", font_family="Arial",
                         size=30, color="white"),
                 ft.Text(value="PET BELIZE", font_family="Arial",
                         size=15, color="white"),
@@ -734,7 +734,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(height=20),
                 circulo,
-                ft.Text("Janaína\nRuperti", size=32,
+                ft.Text("Brandon\nViana", size=32,
                         color="white"
                         ),
                 ft.Container(height=25),
