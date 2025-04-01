@@ -18,10 +18,6 @@ Um sistema para cadastro de clientes e pets, facilitando a gestão de atendiment
     ```sh
     python app.py
 
-## Deploy
-O sistema está rodando no link:
-https://cadastro-clientes-pet-python-flet-3.onrender.com
-
 ## Observações
 - O app ainda não está implementado no sistema Android
 - App está sendo atualizado e correções serão lançadas em breve!
