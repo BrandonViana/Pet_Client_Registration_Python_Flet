@@ -25,9 +25,4 @@ https://cadastro-clientes-pet-python-flet-3.onrender.com
 ## Observações
 - O app ainda não está implementado no sistema Android
 - App está sendo atualizado e correções serão lançadas em breve!
-  
-<p align="center">
-  <img src="Pagina principal.png" width="30%">
-  <img src=""Menu Lateral.png" width="30%">
-  <img src="Histórico.png" width="30%">
-</p>
+
