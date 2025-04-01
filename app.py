@@ -3,7 +3,6 @@ import os
 from fastapi import FastAPI
 import csv
 import uvicorn
-import asyncio
 from formatters import formatar_celular, formatar_horario, formatar_data, formatar_dinheiro, formatar_nome_pet
 
 
