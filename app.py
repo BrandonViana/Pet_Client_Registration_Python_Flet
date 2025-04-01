@@ -843,8 +843,6 @@ async def home():
 
 @app.get("/flet")
 async def flet_app():
-    loop = asyncio.get_running_loop()
-    loop.create_task(ft.app_async(target=main, view=ft.AppView.WEB))  # Usa WEB em vez de WEB_BROWSER
     return {"message": "Flet iniciado!"}
 
 if __name__ == "__main__":
