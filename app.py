@@ -831,6 +831,4 @@ def main(page: ft.Page):
     )
 
 
-if __name__ == "__main__":
-    port = int(os.getenv("PORT", 8501)) 
-    ft.app(target=main, port=port)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
