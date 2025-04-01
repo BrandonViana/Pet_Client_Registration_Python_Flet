@@ -835,6 +835,12 @@ def main(page: ft.Page):
         background
     )
 
+
+@app.get("/")
+async def home():
+    return {"message": "API do Cadastro de Clientes está rodando!"}
+
+
 @app.get("/flet")
 async def flet_app():
     loop = asyncio.get_event_loop()
