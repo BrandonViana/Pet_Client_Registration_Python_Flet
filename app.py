@@ -1,12 +1,8 @@
 import flet as ft
 import os
-from fastapi import FastAPI
 import csv
-import uvicorn
 from formatters import formatar_celular, formatar_horario, formatar_data, formatar_dinheiro, formatar_nome_pet
 
-
-app = FastAPI()
 
 def main(page: ft.Page):
     checkboxes = {}
@@ -835,14 +831,4 @@ def main(page: ft.Page):
     )
 
 
-@app.get("/")
-async def home():
-    return {"message": "API do Cadastro de Clientes está rodando!"}
-
-
-@app.get("/flet")
-async def flet_app():
-    return {"message": "Flet iniciado!"}
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
