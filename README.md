@@ -5,7 +5,6 @@ Um sistema para cadastro de clientes e pets, facilitando a gestão de atendiment
 ## 🚀 Tecnologias Usadas
 - Python
 - Flet
-- Render (Deploy)
 
 ## Como rodar o projeto
 1. Clone o repositório:  
