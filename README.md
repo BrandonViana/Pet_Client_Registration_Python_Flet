@@ -9,7 +9,8 @@ Um sistema para cadastro de clientes e pets, facilitando a gestão de atendiment
 ## Como rodar o projeto
 1. Clone o repositório:  
    ```sh
-   git clone https://github.com/BrandonViana/Cadastro_clientes_pet_python_flet
+   git clone https://github.com/BrandonViana/Pet_Client_Registration_Python_Flet
+
 2. Instale as dependências:
     ```sh
     pip install -r requirements.txt
